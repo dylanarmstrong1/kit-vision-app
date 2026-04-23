@@ -50,7 +50,13 @@ Scan the QR code with Expo Go on your phone.
   "components": {
     "hook_worm": 1,
     "hook_weedless": 1,
-    "crankbait_red": 1
+    "hook_worm_large": 1,
+    "worm_wacky": 1,
+    "worm_texas": 1,
+    "weight": 1,
+    "crankbait_red": 1,
+    "crankbait_natural": 1,
+    "craw": 1
   }
 }
 ```
