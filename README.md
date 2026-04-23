@@ -1,6 +1,6 @@
 # Kit Vision Verify — Mobile App
 
-React Native / Expo companion app for the [Fishing Kit POC](../fishing-kit-poc).
+React Native / Expo companion app for the [kit-vision project](../kit-vision).
 Take a photo of a kit, upload a manifest, and get an instant pass/fail verification report.
 
 ---
