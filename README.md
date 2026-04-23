@@ -1,6 +1,6 @@
 # Kit Vision Verify — Mobile App
 
-React Native / Expo companion app for the [kit-vision project](../kit-vision).
+React Native / Expo companion app for the [kit-vision project]([../kit-vision](https://github.com/dylanarmstrong1/kit-vision)).
 Take a photo of a kit, upload a manifest, and get an instant pass/fail verification report.
 
 ---
