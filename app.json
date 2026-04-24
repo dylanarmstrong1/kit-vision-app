@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Kit Vision Verify",
+    "slug": "kit-vision-app",
+    "scheme": "kitvisionapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F7FB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F4F7FB"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Kit Vision Verify to access your photo library for kit verification.",
+          "cameraPermission": "Allow Kit Vision Verify to use your camera for kit verification."
+        }
+      ],
+      "expo-document-picker"
+    ]
+  }
+}
